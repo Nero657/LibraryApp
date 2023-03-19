@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" afterDir="false" />
+    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v2023.03.17_1">
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,6 +49,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678960836067</updated>
     </task>
+    <task id="LOCAL-00001" summary="v2023.03.17_1">
+      <created>1679085873162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679085873162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2023.03.17_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2023.03.17_1" />
   </component>
 </project>
