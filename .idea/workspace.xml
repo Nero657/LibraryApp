@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v2023.03.19_1">
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/exception/NoSuchOptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/exception/DataExportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/exception/DataImportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/exception/InvalidDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/exception/NoSuchFileTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/file/CsvFileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/file/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/file/FileManagerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/file/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/file/SerializableFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/Option.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Magazine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,13 +50,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Wojci/iCloudDrive/JavaStart/GitHub/LibraryApp"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

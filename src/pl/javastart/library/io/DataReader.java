@@ -3,7 +3,6 @@ package pl.javastart.library.io;
 import pl.javastart.library.model.Book;
 import pl.javastart.library.model.Magazine;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class DataReader {
@@ -21,11 +20,13 @@ public class DataReader {
     public int getInt() {
         try {
             return sc.nextInt();
-        } catch (InputMismatchException e) {
-            throw e;
         } finally {
             sc.nextLine();
         }
+    }
+
+    public String getString() {
+        return sc.nextLine();
     }
 
     public Book readAndCreateBook() {
@@ -61,4 +62,5 @@ public class DataReader {
 
         return new Magazine(title, publisher, language, year, month, day);
     }
+
 }
