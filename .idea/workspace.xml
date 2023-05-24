@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v2023.04.15">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v2023.05.20">
+      <change afterPath="$PROJECT_DIR$/Library.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/comparator/AlphabeticalTitleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/comparator/DateComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681565884495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v2023.05.20">
+      <created>1684589163823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684589163823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +103,7 @@
     <MESSAGE value="v2023.03.17_1" />
     <MESSAGE value="v2023.03.19_1" />
     <MESSAGE value="v2023.04.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2023.04.15" />
+    <MESSAGE value="v2023.05.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2023.05.20" />
   </component>
 </project>
