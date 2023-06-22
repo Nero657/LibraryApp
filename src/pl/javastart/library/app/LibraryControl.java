@@ -8,8 +8,7 @@ import pl.javastart.library.io.file.FileManagerBuilder;
 import pl.javastart.library.model.*;
 import pl.javastart.library.model.comparator.AlphabeticalTitleComparator;
 
-import java.util.Arrays;
-import java.util.InputMismatchException;
+import java.util.*;
 
 class LibraryControl {
     private ConsolePrinter printer = new ConsolePrinter();
@@ -55,10 +54,10 @@ class LibraryControl {
                 case DELETE_MAGAZINE:
                     deleteMagazine();
                     break;
-                case ADD_USER: //dodano
+                case ADD_USER:
                     addUser();
                     break;
-                case PRINT_USERS: //dodano
+                case PRINT_USERS:
                     printUsers();
                     break;
                 case EXIT:
@@ -116,7 +115,6 @@ class LibraryControl {
         }
     }
 
-    //dodano
     private void addUser() {
         LibraryUser libraryUser = dataReader.createLibraryUser();
         try {
@@ -126,19 +124,21 @@ class LibraryControl {
         }
     }
 
-    //zmiana logiki
     private void printBooks() {
-        printer.printBooks(library.getPublications().values());
+        printer.printBooks(library.getSortedPublications(new AlphabeticalTitleComparator()));
     }
 
-    //zmiana logiki
     private void printMagazines() {
-        printer.printMagazines(library.getPublications().values());
+        printer.printMagazines(library.getSortedPublications(new AlphabeticalTitleComparator()));
     }
 
-    //dodano
     private void printUsers() {
-        printer.printUsers(library.getUsers().values());
+        printer.printUsers(library.getSortedUsers(new Comparator<LibraryUser>() {
+            @Override
+            public int compare(LibraryUser p1, LibraryUser p2) {
+                return p1.getLastName().compareToIgnoreCase(p2.getLastName());
+            }
+        }));
     }
 
     private void deleteMagazine() {
@@ -184,8 +184,8 @@ class LibraryControl {
         PRINT_MAGAZINES(4, "Wyświetlenie dostępnych magazynów/gazet"),
         DELETE_BOOK(5, "Usuń książkę"),
         DELETE_MAGAZINE(6, "Usuń magazyn"),
-        ADD_USER(7, "Dodaj czytelnika"), //dodano
-        PRINT_USERS(8, "Wyświetl czytelników"); //dodano
+        ADD_USER(7, "Dodaj czytelnika"),
+        PRINT_USERS(8, "Wyświetl czytelników");
 
         private int value;
         private String description;
