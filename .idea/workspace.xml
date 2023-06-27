@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v0.20230626">
+    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v0.20230627">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687780059238</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="v0.20230627">
+      <option name="closed" value="true" />
+      <created>1687868359234</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687868359234</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +195,8 @@
     <MESSAGE value="v0.20230624" />
     <MESSAGE value="v0.20230625" />
     <MESSAGE value="v0.20230626" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.20230626" />
+    <MESSAGE value="v0.20230627" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.20230627" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
