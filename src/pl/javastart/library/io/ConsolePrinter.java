@@ -5,7 +5,6 @@ import pl.javastart.library.model.*;
 import java.util.Collection;
 
 public class ConsolePrinter {
-    //zmiana typu parametru
     public void printBooks(Collection<Publication> publications) {
         long count = publications.stream()
                 .filter(p -> p instanceof Book)
@@ -16,7 +15,6 @@ public class ConsolePrinter {
             printLine("Brak książek w bibliotece");
     }
 
-    //zmiana typu parametru
     public void printMagazines(Collection<Publication> publications) {
         long count = publications.stream()
                 .filter(p -> p instanceof Magazine)

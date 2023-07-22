@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v0.20230627">
+    <list default="true" id="cbc75ebc-6bb9-4afb-b0f2-989783e78a51" name="Changes" comment="v0.20230709">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/app/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/io/file/CsvFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/library/model/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687871502095</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="v0.20230709">
+      <option name="closed" value="true" />
+      <created>1688933183284</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688933183284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +223,8 @@
     <MESSAGE value="v0.20230625" />
     <MESSAGE value="v0.20230626" />
     <MESSAGE value="v0.20230627" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.20230627" />
+    <MESSAGE value="v0.20230709" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.20230709" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
